@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Linux Day Torino - 25 ottobre 2014</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style-blue.css">
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+	<!-- jQuery -->
+	<script type="text/javascript" src="assets/js/jquery.js"></script>
+	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+
+	<!-- Google Analytics
+	================================================== -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-190627-13', 'linuxdaytorino.org');
+		ga('send', 'pageview');
+	</script>
+</head>
+<body data-spy="scroll" data-target=".navbar-default" style="position:relative;">
+	<!-- Preloader -->
+	<div id="preloader">
+		<div id="loadanimation"></div>
+	</div>
+
+	<!-- Navigation -->
+	<div id="header_nav" class=" nav-container nav-fixed">
+		<nav  class=" navbar  navbar-default container navigation" role="navigation">
+		  	<!-- Brand and toggle get grouped for better mobile display -->
+		  	<div class="navbar-header">
+		    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		      	<span class="sr-only">Toggle navigation</span>
+		      	<span class="icon-bar"></span>
+		      	<span class="icon-bar"></span>
+		      	<span class="icon-bar"></span>
+		    	</button>
+		    	<a class="navbar-brand" href="index.html">Linux Day <span>Torino</span></a>
+		  	</div>
+		 	<!-- Collect the nav links, forms, and other content for toggling -->
+		 	<div  class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">	
+		    <ul class="nav navbar-nav navbar-right list-menu dropdown onepage" role="tablist">
+			    <li>
+			    	<a class="scrollTo" href="#myCarousel"><i class="icon-home icon-front blue"></i> HOME</a>
+				  </li>
+				  <li>
+			     	<a class="scrollTo" href="#register"><i class="icon-heart icon-front redish"></i> INFO</a>
+				  </li>
+		    </ul>
+		  </div>
+		</nav>
+	</div>
+
+	<!-- Main Slider -->
+	<div id="myCarousel" class="carousel slide">
+	  	<!-- Carousel items -->
+	  	<div class="carousel-inner">
+	    	<div class="item active ad1">
+	    		<div class="caption model-3">
+	    			<span class="big-text-caption">Linux Day <span class="colored">Torino</span> 2014</span>
+		    		<br />
+		    		<span class="small-text-caption">25 ottobre</span>
+					<br />
+		    		<!-- Countdown -->
+					<ul id="countdown" class="countdown-2">
+					    <li>
+					      	<span class="days">00</span>
+					      	<p class="timeRefDays">giorni</p>
+					    </li>
+					    <li>
+					      	<span class="hours">00</span>
+					      	<p class="timeRefHours">ore</p>
+					    </li>
+					    <li>
+					      	<span class="minutes">00</span>
+					      	<p class="timeRefMinutes">minuti</p>
+					    </li>
+					    <li>
+					      	<span class="seconds">00</span>
+					      	<p class="timeRefSeconds">secondi</p>
+					    </li> 
+					</ul>
+	    		</div>
+	    	</div>
+	  	</div>
+	</div>
+	
+	<!-- Boxes -->
+	<div class="container timer-boxes">
+		<div class="boxes">
+			<div class="col-sm-3 box fadeInDown">
+				<div class="box-icon"><i class="icon-location-1"></i></div>
+				<h4>Torino</h4>
+				<p>[sede da definire]</p>
+			</div>
+
+			<div class="col-sm-3 box fadeInDown delay-2">
+				<div class="box-icon"><i class="icon-calendar"></i></div>
+				<h4>25 ottobre</h4>
+				<p>dalle ore 14:00</p>
+			</div>
+
+			<div class="col-sm-3 box fadeInDown delay-3">
+				<div class="box-icon"><i class="icon-mic-1"></i></div>
+				<h4>Tanti speaker</h4>
+				<p>per tanti talk</p>
+			</div>
+
+			<div class="col-sm-3 box fadeInDown delay-4">
+				<div class="box-icon"><i class="icon-users"></i></div>
+				<h4>TU</h4>
+				<p>e porta gli amici!</p>
+			</div>
+		</div> 
+	</div>
+	<!-- Spacing Block -->
+	<div id="schedule" class="spacing-block clearfix" style="height: 50px"></div>
+
+	<div class="container">
+		<!-- Schedule -->
+		<div class="schedule clearfix">
+			<div class="col-sm-9 program fadeInR">
+				<h3>... Get Ready...</h3>
+
+				<p class="lead">
+					Il Linux Day è la più grande manifestazione italiana per la promozione e la diffusione di Linux e del software libero. Nato nel 2001, consiste in una serie di eventi (più di cento!) distribuiti su tutto il territorio nazionale e organizzati, tutti nel medesimo giorno, in modo indipendente dai gruppi locali di entusiasti ed appassionati.
+				</p>
+
+				<p class="lead">
+					Ovviamente, anche quest'anno all'appello non poteva mancare Torino!
+				</p>
+
+				<p class="lead">
+					Stiamo lavorando per voi. Per confermare la sede, finire di contattare i relatori (e che relatori!), ultimare il programma e stampare le magliette.
+				</p>
+
+				<p class="lead">
+					Restate sintonizzati sul <a href="http://linuxdayto.wordpress.com/">nostro blog</a> o sulla nostra <a href="https://www.facebook.com/LinuxDayTorino">pagina Facebook</a> per tutti i dettagli che via via saranno annunciati.
+				</p>
+
+				<p class="lead">
+					Non prendete impegni per sabato 25 ottobre!
+				</p>
+			</div>
+
+			<div class="col-sm-3 program fadeInR">
+				<a href="http://www.linuxday.it">
+					<img src="http://www.linuxday.it/sites/default/files/banners/banner_120x600.png" border="0" alt="Linux Day 2014" />
+				</a>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Spacing Block -->
+	<div id="register" class="spacing-block clearfix" style="height: 50px"></div>
+
+	<!-- Register -->
+	<div class="container register clearfix">
+		<!-- Pricing tables -->
+		<div class="row pricing-tables">
+			<div class="col-lg-10 col-lg-offset-1">
+				<div class="pricing-row">
+					<div class="col-sm-4 col-xs-12 pricing-container fadeInUp-Big">
+						<ul class="list-group">
+						 	<li class="list-group-item heading">
+								<div class="icon"><i class="icon-link"></i></div>
+								Links Utili
+							</li>
+							<li class="list-group-item"><a href="http://www.linux.it/"><span class="bold">Linux.it</span></a></li>
+							<li class="list-group-item"><a href="http://www.linuxday.it/"><span class="bold">Linux Day</span></a></li>
+							<li class="list-group-item"><a href="https://www.facebook.com/LinuxDayTorino"><span class="bold">LinuxDayTO su Facebook</span></a></li>
+							<li class="list-group-item"><a href="http://linuxdayto.wordpress.com/"><span class="bold">Blog del LinuxDayTO</span></a></li>
+							<li class="list-group-item"><a href="https://www.youtube.com/user/LinuxDayTorino"><span class="bold">Canale YouTube LinuxDayTO</span></a></li>
+						</ul>
+					</div>
+					<div class="col-sm-4 col-xs-12 pricing-container fadeInDown">
+						<ul class="list-group">
+						  	<li class="list-group-item heading">
+								<div class="icon"><i class="icon-info"></i></div>
+								Chi Siamo
+							</li>
+							<li class="list-group-item">Il Comitato Linux Day Torino è un collettivo informale, anarchico, entropico e destrutturato di persone ed associazioni che dal 2007 collaborano per l'organizzazione e l'allestimento dell'implementazione torinese del Linux Day. Il gruppo si coordina per mezzo di una <a href="http://linuxdaytorino.org/cgi-bin/mailman/listinfo/organizzazione">mailing list</a>, pubblica e aperta a tutti gli interessati.</li>
+						</ul>
+					</div>
+					<div class="col-sm-4 col-xs-12 pricing-container fadeInDown">
+						<ul class="list-group">
+						  	<li class="list-group-item heading">
+								<div class="icon"><i class="icon-back-in-time"></i></div>
+								Edizioni Passate
+							</li>
+							<li class="list-group-item"><a href="/2013"><span class="bold">2013</span></a> Politecnico di Torino</li>
+							<li class="list-group-item"><a href="/2012"><span class="bold">2012</span></a> Cortile del Maglio</li>
+							<li class="list-group-item"><a href="/2011"><span class="bold">2011</span></a> Cascina Roccafranca</li>
+							<li class="list-group-item"><a href="/2010"><span class="bold">2010</span></a> Cascina Roccafranca</li>
+							<li class="list-group-item"><a href="/2009"><span class="bold">2009</span></a> Cascina Roccafranca</li>
+							<li class="list-group-item"><a href="/2008"><span class="bold">2008</span></a> Cascina Roccafranca</li>
+							<li class="list-group-item"><a href="/2007"><span class="bold">2007</span></a> Cascina Roccafranca</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- GoogleMap -->
+	<div class="googleMap">
+		<div id="googleMap" class="clearfix"></div>
+		<div class="contact">
+			<div class="container">
+				<h4>Contatti</h4>
+				<ul class="info">
+					<li class="col-sm-3"><a href="http://linuxdaytorino.org/"><i class="icon-globe"></i> www.linuxdaytorino.org</a></li>
+					<li class="col-sm-3"><a href="https://www.facebook.com/LinuxDayTorino"><i class="icon-facebook"></i> LinuxDayTorino</a></li>
+					<li class="col-sm-3"><a href="mailto:info@linuxdaytorino.org"><i class="icon-mail"></i> info@linuxdaytorino.org</a></li>
+					<li class="col-sm-3"><i class="icon-phone"></i> +39 3487254214</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery -->
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+	<!-- <script type="text/javascript" src="assets/js/google.map.js"></script> -->
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/respond.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.inview.js"></script>
+	<script type="text/javascript" src="assets/js/js.js"></script>
+
+	<!-- ======== Scroll To ======== -->
+	<script type="text/javascript"> 
+		// Onepage Scroll to 
+		jQuery(document).ready(function($) {
+			"use strict";
+		    $('.scrollTo').on('click',function (e) {
+		        e.preventDefault();
+
+		        var target = this.hash,
+		        $target = $(target);
+
+		        $('html, body').stop().animate({
+		            'scrollTop': $target.offset().top -1
+		        }, 900, 'swing', function () {
+		            window.location.hash = target.offset().top -1;
+		        });
+		    });
+		});
+	</script>
+	<!-- ======== CountDown ======== -->
+	<script src="assets/js/countdown.js" type="text/javascript" charset="utf-8"></script>
+  	<script>
+		$(document).ready(function($){
+			"use strict";
+			$("#countdown").countdown({
+				date: "25 october 2014 14:00:00", // Edit this line
+				format: "on"
+			},
+			function() {
+				// callback function
+			});
+		});
+	</script>
+</body>
+</html>
