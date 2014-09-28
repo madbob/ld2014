@@ -1469,6 +1469,21 @@ ul.list-1 li:hover i {
   text-align: center;
   margin: 25px auto 40px;
 }
+/*===== Location =====*/
+.location {
+  margin-top: 20px;
+}
+.location h3 {
+  margin: 0;
+  text-align: center;
+}
+.location > p {
+  margin: 25px auto 40px;
+}
+.location .img {
+  margin-top: 20px;
+  text-align: center;
+}
 /*===== Subscribe =====*/
 .subscribe {
   margin-top: 85px;
@@ -1777,8 +1792,10 @@ ul.list-1 li:hover i {
   height: 50px;
 }
 .schedule thead th {
+  width: 16.67%;
   text-align: center;
 }
 .schedule tbody tr {
   border-top: 1px solid #EEE;
 }
+
