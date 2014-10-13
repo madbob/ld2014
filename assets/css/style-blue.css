@@ -1791,6 +1791,11 @@ ul.list-1 li:hover i {
 .schedule tr {
   height: 50px;
 }
+.schedule td {
+  white-space: nowrap;
+  padding-left: 5px;
+  padding-right: 5px;
+}
 .schedule thead th {
   width: 16.67%;
   text-align: center;
