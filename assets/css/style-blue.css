@@ -1817,3 +1817,10 @@ ul.list-1 li:hover i {
   margin-right: 15px;
   font-size: 24px;
 }
+
+.schedule_list a .email { background: url("../img/elements/icon-mail.png") top center no-repeat }
+.schedule_list a .fb    { background: url("../img/elements/icon-facebook.png") top center no-repeat }
+.schedule_list a .url   { background: url("../img/elements/icon-web.png") top center no-repeat }
+.schedule_list a .twitter    { background: url("../img/elements/icon-twitter.png") top center no-repeat }
+.schedule_list a .googleplus { background: url("../img/elements/icon-plus.png") top center no-repeat }
+.schedule_list a .github     { background: url("../img/elements/icon-web.png") top center no-repeat }
