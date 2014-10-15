@@ -1326,7 +1326,7 @@ ul.list-1 li:hover i {
   max-width: 750px;
 }
 .speakers .speaker {
-  max-width: 293px;
+  /* max-width: 293px; */
   position: relative;
 }
 @media screen and (max-width: 767px) {
@@ -1341,12 +1341,15 @@ ul.list-1 li:hover i {
     margin: 30px auto;
   }
 }
+.speakers .speaker img {
+  display: inline-block;
+}
 .speakers .speaker .info {
   padding: 15px;
-  border: 1px solid #eeeeee;
-  border-top: none;
+  /* border: 1px solid #eeeeee;
+  border-top: none; */
   background: #fff;
-  max-width: 263px;
+  /* max-width: 263px; */
 }
 .speakers .speaker .info h5 {
   font-family: 'Lato';
