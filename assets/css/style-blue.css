@@ -1787,6 +1787,9 @@ ul.list-1 li:hover i {
   line-height: 20px;
 }
 
+.photos img {
+  margin-bottom: 15px;
+}
 
 .schedule {
   width: 100%;
